@@ -1,0 +1,480 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.box-container{
+    text-align: center;
+}
+.post>p{
+    overflow-y: scroll;
+    max-height: 800px;
+}
+.post{
+    background: transparent;
+    transition: 0.8s;
+
+    width: 30%;
+    padding-left: 15px;
+    margin-top: 15px;
+    float: right;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid white;
+    border-radius: 20px;
+    color:white;
+
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #3DD1B6, 10px 13px 44px 2px #3DD1B6; 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #3DD1B6, 10px 13px 44px 2px #3DD1B6;
+
+}
+.post:hover{
+    background-color: rgba(255,255,255,0.7);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-shadow: -4px 4px 8px #09579a,
+    4px -4px 8px #09579a,
+    4px 4px 8px #09579a,
+    -4px -4px 8px #09579a,
+    inset -4px 4px 8px #09579a,
+    inset 4px -4px 8px #09579a,
+    inset 4px 4px 8px #09579a,
+    inset -4px -4px 8px #09579a;
+
+    text-shadow: -4px 4px 8px #823418,
+    4px -4px 8px #823418,
+    4px 4px 8px #823418,
+    -4px -4px 8px #823418,
+    -10px 10px 20px #823418,
+    10px -10px 20px #823418,
+    10px 10px 20px #823418,
+    -10px -10px 20px #823418;
+    text-align: center;
+    height: auto;
+}
+
+header{
+    padding: 0;
+    margin-bottom: 0;
+}
+div.sticky {
+    position: sticky;
+    border-radius: 10px;
+    padding-top: 10px;
+    top:0;
+    background: rgb(69,7,43);
+    background: linear-gradient(355deg, rgba(69,7,43,1) 10%, rgba(15,41,24,1) 22%, rgba(32,12,61,1) 58%, rgba(69,7,43,1) 83%);
+   
+
+}
+/*.gradin{
+    float: right;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tesla-cybertruck-2022-1600-05-1574413050.jpg);
+    background-blend-mode:multiply;
+    background: linear-gradient(to right #33ccff 50%, #55dd84 5%);
+    height: 100px;
+    border-radius: 20px;
+
+
+}*/
+
+header ul{
+    list-style-type: none ;
+    padding-left: 20px;
+    margin: 0;
+}
+
+header ul li{
+    padding: 0;
+    margin: 0;
+    display:inline-block;
+    margin-right: 20px;
+}
+
+header ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color:#ccc;
+}
+
+footer{
+   /* background-image: url(https://wallpaperaccess.com/full/1819176.jpg);*/
+
+    /*background: radial-gradient(circle, rgba(92,88,226,0.1) 0%, rgba(20,10,98,0.4) 16%, rgba(56,16,95,0.5) 27%, rgba(2,7,24,0.6) 45%, rgba(62,29,124,0.9) 58%, rgba(22,29,126,1) 70%, rgba(23,19,168,1) 100%);
+    background-blend-mode: multiply;*/
+
+     background:linear-gradient(151deg, rgba(17,14,117,1) 7%, rgba(36,31,87,0.4) 19%, rgba(96,92,124,0.1) 23%, rgba(188,170,207,0.3) 62%, rgba(194,55,130,0.4) 70%, rgba(201,56,147,0.6) 74%, rgba(207,56,84,1) 84%, rgba(193,11,11,1) 95%),
+    url("https://www.maxim.com/wp-content/uploads/2021/05/offset-3-scaled.jpg");
+    height:160px ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+     
+    box-shadow: -4px 4px 8px #09579a,
+    4px -4px 8px #09579a,
+    4px 4px 8px #09579a,
+    -4px -4px 8px #09579a,
+    inset -4px 4px 8px #09579a,
+    inset 4px -4px 8px #09579a,
+    inset 4px 4px 8px #09579a,
+    inset -4px -4px 8px #09579a;
+
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    color:#fff;
+    margin-top: 150px;
+
+}
+.flex{
+    display: flex;
+}
+.show{
+    display: flex;
+    text-shadow: -4px 4px 8px #823418,
+    4px -4px 8px #823418,
+    4px 4px 8px #823418,
+    -4px -4px 8px #823418,
+    -10px 10px 20px #823418,
+    10px -10px 20px #823418,
+    10px 10px 20px #823418,
+    -10px -10px 20px #823418;
+    width: 70%;
+    justify-content: flex-start;
+    align-self: flex-start;
+
+}
+
+.holboos{
+    display:flex;
+    /*letter-spacing: 20px;*/
+    text-shadow: 5px 2px 5px white;
+    color: blue;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    border: 20px;
+    height: 150px;
+    width: 30%;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+
+}
+.youtube{
+    text-decoration: none;
+    display: flex;
+    align-self: end;
+    color: red;
+}
+.linkedin{
+    text-decoration: none;
+    display: flex;
+    color: #0072b1;
+    align-self: center;
+}
+.twitter{
+    text-decoration: none;
+    display: flex;
+    color:  #00acee;
+    align-self: end;
+}
+.facebook{
+    text-decoration: none;
+    display: flex;
+    color: #3b5998;
+    align-self: baseline;
+}
+.telegram{text-decoration: none;
+    display: flex;
+    color: #229ED9;
+    align-self: center;
+}
+.whatsapp{
+    text-decoration: none;
+    display: flex;
+    color: #27cc21;
+    align-self: end;
+    justify-content: end;
+    text-shadow: 5px 5px 5px green;
+}
+.Ravie{
+    padding: 0;
+    margin-bottom: 20px;
+    color: aqua;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.container{ 
+    margin: 10px;
+    height: 1800px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 20px;
+    padding: 100px;
+}
+
+body {
+    padding: 0;
+    margin:0;
+    background-image: url("https://s.aolcdn.com/os/ab/_cms/2022/08/16052202/mercedes-benz-eqe-suv-interior-preview-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+body{
+    background-color: aliceblue;
+}
+.card{
+    background: transparent;
+    top: 0;
+    left: 0;
+    transition: 0.9s;
+    border-radius: 10px;
+
+
+    margin-top: 30px;
+    margin-left: 20px;
+    width:auto;
+    height: auto;
+    background-color:rgba(187,168,189,.3) ;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 2em;
+
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+    border-right: 5px solid rgba(0, 0, 0, 0.5);
+    border-top: 5px solid rgba(0, 0, 0, 0.5);
+    border-left: 5px solid rgba(0, 0, 0, 0.5);
+}
+.card:hover{
+    background-color: rgba(255,255,255,0.7);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-body-button:hover{
+    transition: 0.5s;
+    font-size: 15px;
+    text-shadow: 3px 2px 3px rgba(255,255,255,.2), 14px -4px 15px rgba(6,22,26,0.84);
+}
+.zrg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.card-body h3{
+    text-align:center;
+}
+.card-body p{
+    text-align: center;
+}
+article{
+    margin-inline: 50%;
+    margin-block: 25px;
+    height: 300px;
+    width: 55%;
+    margin-left: 30px;
+    background-color:rgba(187,168,189,.7);
+}
+aside{
+    width: 30%;
+    float: right;
+    font-style: italic;
+    display: block;
+}
+.cars{
+    display:flex;
+}
+
+.small-list-item div{
+    color: #000;
+}
+div{
+    display: block;
+}
+.small-list-item{
+    display:-webkit-box;
+    display:flex;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom:15px;
+    padding-top: 15px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    float: left;
+    width: 70%;
+}
+.porshe{
+    background: transparent;
+    top: 0;
+    left: 0;
+    transition: 0.9s;
+    border-radius: 10px;
+
+    border-bottom: 5px solid rgba(0, 255, 255, 0.5);
+    border-right: 5px solid rgba(186, 43, 64, 0.5);
+    border-top: 5px solid rgba(0, 255, 255, 0.5);
+    border-left: 5px solid rgba(255, 0, 255, 0.5);
+}
+.porshe:hover{
+    background-image: url(https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/pnr/2021/Products/911-gts/Gallery-Driving/P21_0182_a3_rgb.jpeg/jcr:content/P21_0182_a3_rgb.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 16px -8px 9px 8px rgba(69,6,135,1);
+    -webkit-box-shadow: 16px -8px 9px 8px rgba(69,6,135,1);
+    -moz-box-shadow: 16px -8px 9px 8px rgba(69,6,135,1);
+}
+.bmw{
+    background: transparent;
+    top: 0;
+    left: 0;
+    transition: 0.9s;
+    border-radius: 10px;
+
+    border-bottom: 5px solid rgba(204, 184, 84, 0.5);
+    border-right: 5px solid rgba(186, 43, 64, 0.5);
+    border-top: 5px solid rgba(0, 255, 255, 0.5);
+    border-left: 5px solid rgba(255, 0, 255, 0.5);
+}
+.bmw:hover{
+    background-image: url(https://krakow.bmw-mcars.pl/www/media/20/img/bmw_m_cars_m4_csl_x_minb.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Rolls{
+    background: transparent;
+    top: 0;
+    left: 0;
+    transition: 0.9s;
+    border-radius: 10px;
+
+    border-bottom: 5px solid rgba(204, 184, 84, 0.5);
+    border-right: 5px solid rgba(186, 43, 64, 0.5);
+    border-top: 5px solid rgba(204, 184, 84, 0.5);
+    border-left: 5px solid rgba(255, 0, 255, 0.5);
+}
+.Rolls:hover{
+    background-image: url(https://i.gaw.to/content/photos/47/36/473687-la-future-rolls-royce-electrique-s-appellera-silent-shadow.jpg?1024x640);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text{
+    text-align: center;
+    color: chartreuse;
+}
+
+.open{
+    color: #bc2e1e;
+    text-shadow: 0 -1px 0px #378ab4, 1px 0 0px #5dabcd, 1px -2px 1px #378ab4, 2px -1px 1px #5dabcd, 2px -3px 2px #378ab4, 3px -2px 2px #5dabcd, 3px -4px 2px #378ab4, 4px -3px 3px #5dabcd, 4px -5px 3px #378ab4, 5px -4px 2px #5dabcd, 5px -6px 2px #378ab4, 6px -5px 2px #5dabcd, 6px -7px 1px #378ab4, 7px -6px 1px #5dabcd, 7px -8px 0px #378ab4, 8px -7px 0px #5dabcd;
+}
+.moto{
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: flex-end;
+    height: 500px;
+
+}
+.plus{
+    width: 20%;
+    border: 1px solid red;
+    margin: 10px;
+}
+.moto-section{
+
+}
+.moto{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    background: linear-gradient(3deg, rgba(92,91,126,0.8) 36%,rgba(133,123,123,1) 72%, rgba(101,99,119,0.8) 42%, rgba(118,107,195,0.8) 62%,
+     rgba(133,102,121,0.7) 68%, rgba(93,82,105,0.8) 65%, rgba(64,44,55,0.8) 62%, rgba(25,18,20,1) 89%);
+    margin: 0;
+    border-radius: 88px/28px;
+}
+.item1{
+    background-color: black;
+}
+.item2{
+    background-color: black;
+}
+.item3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: inherit;
+}
+.item3-1{
+    background-color: black;
+    height: 50%;
+    border: 1px solid red;
+}
+.item3-2{
+    background-color: #000;
+    height: 50%;
+    border: 1px solid red;
+}
+.item4{
+    background-color: black;
+}
+.item5{
+    background-color: black;
+}
+.moto-article{
+    margin: 0 auto;
+    color: #fff;
+    width: 99%;
+    height: 150px;
+    background-color: #000;
+    border: 1px solid red;
+}
+#cars{
+    width: 100px;
+    height: 20px;
+    color:blue;
+    background-color: inherit;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.pickup{
+    color: #fff;
+    background-color: blue;
+}
+
+
+
+

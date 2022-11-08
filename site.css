@@ -399,6 +399,9 @@ div{
     color: #bc2e1e;
     text-shadow: 0 -1px 0px #378ab4, 1px 0 0px #5dabcd, 1px -2px 1px #378ab4, 2px -1px 1px #5dabcd, 2px -3px 2px #378ab4, 3px -2px 2px #5dabcd, 3px -4px 2px #378ab4, 4px -3px 3px #5dabcd, 4px -5px 3px #378ab4, 5px -4px 2px #5dabcd, 5px -6px 2px #378ab4, 6px -5px 2px #5dabcd, 6px -7px 1px #378ab4, 7px -6px 1px #5dabcd, 7px -8px 0px #378ab4, 8px -7px 0px #5dabcd;
 }
+.moto-section{
+    margin: auto 130px;
+}
 .moto{
     display: flex;
     flex-direction: column-reverse;
@@ -411,9 +414,7 @@ div{
     width: 20%;
     border: 1px solid red;
     margin: 10px;
-}
-.moto-section{
-
+    border-radius: 10px;
 }
 .moto{
     color: #fff;
@@ -421,35 +422,12 @@ div{
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
-    background: linear-gradient(3deg, rgba(92,91,126,0.8) 36%,rgba(133,123,123,1) 72%, rgba(101,99,119,0.8) 42%, rgba(118,107,195,0.8) 62%,
-     rgba(133,102,121,0.7) 68%, rgba(93,82,105,0.8) 65%, rgba(64,44,55,0.8) 62%, rgba(25,18,20,1) 89%);
-    margin: 0;
-    border-radius: 88px/28px;
 }
 .item1{
     background-color: black;
 }
 .item2{
-    background-color: black;
-}
-.item3{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    border: inherit;
-}
-.item3-1{
-    background-color: black;
-    height: 50%;
-    border: 1px solid red;
-}
-.item3-2{
-    background-color: #000;
-    height: 50%;
-    border: 1px solid red;
-}
-.item4{
-    background-color: black;
+    width: 100%;
 }
 .item5{
     background-color: black;

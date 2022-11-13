@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="pickup.css">
+</head>
+    <div class="sticky">
+        <header>  
+            <h1 class="Ravie">Car show</h1>
+            <nav>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">contact</a></li>
+                    <li>
+                        <a href="">main</a>
+                        <select name="cars" id="cars">
+                            <option></option>
+                            <option value="ford" class="ford pickup">Ford</option>
+                            <option value="hummer" class="hummer pickup">Hummer</option>
+                            <option value="lexus" class="lexus pickup">Lexus</option>
+                            <option value="toyota" class="toyota pickup">Toyota</option>
+                        </select>
+                    </li>
+                    <!--<li><a href="">menu &nbsp;<i class="fa fa-align-justify" aria-hidden="true"></i></a></li>-->
+                    <!--<form action="/action_page.php"></form>             <label for="cars"></label>-->
+                    <li style="font-size:20px;"><a href="site.html">&#128171;</a></li>
+                </ul>
+                <input type="week" id="myWeek" value="2014-W15">
+                <button onclick="myFunction()">Try it</button>
+
+                <p id="demo"></p>
+
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myWeek").value;
+                        document.getElementById("demo").innerHTML = x;
+                        }
+                </script>
+            </nav>
+        </header>
+    </div>
+<body>
+    <main>
+        <section>
+            <div class="raptor">
+                <img src="https://www.motortrend.com/uploads/2022/07/2023-F-150-Raptor-R_exterior_-Avalanche-Gray_-03.jpg">
+                <div class="raptor-title"><h2>"2023 Transit Trail": Adventure Doesn’t Just Await. It Comes Standard.</h2></div>
+            </div>
+        </section>
+        <aside>
+            <div class="card">
+                <div class="card1">
+                    <div class="card1-img card-img"><img src="https://www.motortrend.com/uploads/2022/03/2023-Ford-F-150-Rattler_01.jpg" alt="f-150"></div>
+                    <div class="card1-text text">
+                        <div class="card1-title title">Ford 2020 <br>F-150</div>
+                        <div class="card1-paragraph paragraph">Starting at $40,000</div>
+                        <div class="card1-btn btn">Buy →</div>
+                    </div>
+                </div>
+                <div class="card2">
+                    <div class="card2-img card-img"><img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2022/01/896/500/light-4.jpg?ve=1&tl=1" alt=""></div>
+                    <div class="card2-text text">
+                        <div class="card2-title title">Ford <b style="color: rgba(0, 200, 0, 0.8)";>electric</b><br>F-150</div>
+                        <div class="card2-paragraph paragraph">Starting at $100,000</div>
+                        <div class="card2-btn  btn">Buy →</div>
+                    </div>
+                </div>
+                <div class="card3">
+                    <div class="card3-img card-img"><img src="https://www.motortrend.com/uploads/2021/10/2022-Ford-F-150_003.jpg"alt=""></div>
+                    <div class="card3-text text">
+                        <div class="card3-title title">Ford 2022 <br>F-150</div>
+                        <div class="card3-paragraph paragraph">Starting at $80,000</div>
+                        <div class="card3-btn btn">Buy →</div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -144,7 +144,6 @@ footer{
     text-align: center;
     color:#fff;
     margin-top: 150px;
-
 }
 .flex{
     display: flex;
@@ -402,6 +401,9 @@ div{
 .moto-section{
     margin: auto 130px;
 }
+.moto-section>h2{
+    text-align: center;
+}
 .moto{
     display: flex;
     flex-direction: column-reverse;
@@ -433,12 +435,21 @@ div{
     background-color: black;
 }
 .moto-article{
-    margin: 0 auto;
-    color: #fff;
-    width: 99%;
-    height: 150px;
-    background-color: #000;
-    border: 1px solid red;
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+}
+.tesla>img{
+    height: 200px;
+    border-radius: 10px;
+}    
+.model>img{
+    height: 200px;
+    border-radius: 10px;
+}
+.BYD>img{
+    height: 200px;
+    border-radius: 10px;
 }
 #cars{
     width: 100px;
